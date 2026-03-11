@@ -13,10 +13,16 @@ require_once __DIR__ . '/../includes/assignment7_helper.php';
 /**********************************************************
  * STUDENTEN-CODE — HIER MAG JE WERKEN
  **********************************************************/
+//get is in de browser en die data kan makelijk gezien worden
+//post is meer prive en je kan geen data zien in de url
+
+// dus voor wie is het gebruik je post anders zie je wie iemand gekozen heeft
+
 $featureLabels = [
         "man"     => "Is het een man?",
         "glasses" => "Draagt hij/zij een bril?",
-        "bald"    => "Is hij/zij kaal?"
+        "bald"    => "Is hij/zij kaal?",
+        "name"    => "show name"
 ];
 
 $formFields = [
