@@ -11,10 +11,6 @@ foreach ($characterDataset as $name => $data) {
         continue;
     }
 
-    if ($data['features']['woman'] == 1) {
-        continue;
-    }
-
 
     echo "<pre>";
     if ($data['features']['man'] == 1 && $data['features'] ['bald'] == 1 && $data['features'] ['glasses'] == 1) {

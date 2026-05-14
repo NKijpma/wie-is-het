@@ -52,7 +52,7 @@ $answer  = $data['answer'] ?? null;
     <title>Opdracht 6A – GET vs POST</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="/project/css/assignment7.css">
+    <link rel="stylesheet" href="../css/assignment7.css">
 </head>
 <body>
 
@@ -75,7 +75,6 @@ $answer  = $data['answer'] ?? null;
         </a>
     </div>
 </div>
-
 <div class="grid">
     <!-- Form kaart: glow -->
     <div class="card play-glow" id="playCard">
